@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:instagram/utils/colors.dart';
 import 'package:instagram/utils/global_variables.dart';
@@ -44,7 +45,7 @@ class _MobileScreenLayoutState extends State<MobileScreenLayout> {
         onPageChanged: onPageChanged,
         children: homeScreenItems,
       ),
-      bottomNavigationBar: BottomNavigationBar(
+      bottomNavigationBar: CupertinoTabBar(
         backgroundColor: mobileBackgroundColor,
         //    backgroundColor: Color(0xffffffff),
 
