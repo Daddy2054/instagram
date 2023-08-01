@@ -100,6 +100,7 @@ class _SignupScreenState extends State<SignupScreen> {
             ),
             SvgPicture.asset(
               'assets/ic_instagram.svg',
+              // ignore: deprecated_member_use
               color: primaryColor,
               height: 64,
             ),
