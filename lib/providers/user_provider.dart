@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+import 'package:flutter/widgets.dart';
 import 'package:instagram/models/user.dart';
 import 'package:instagram/resources/auth_methods.dart';
 

@@ -28,10 +28,11 @@ class AuthMethods {
     String res = 'Some error occured';
     try {
       if (email.isNotEmpty ||
-          password.isNotEmpty ||
-          username.isNotEmpty ||
-          bio.isNotEmpty ||
-          file != null) {
+              password.isNotEmpty ||
+              username.isNotEmpty ||
+              bio.isNotEmpty
+//          ||          file != null
+          ) {
         UserCredential cred = await _auth.createUserWithEmailAndPassword(
           email: email,
           password: password,
